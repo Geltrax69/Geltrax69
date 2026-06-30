@@ -133,18 +133,6 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 
 ---
 
-<!-- ===================  TELEMETRY  =================== -->
-### <img src="https://cdn.simpleicons.org/grafana/00F5A0" width="22" /> &nbsp;`./telemetry --live`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Geltrax69&show_icons=true&count_private=true&hide_border=true&title_color=00F5A0&icon_color=00D9F5&text_color=c9d1d9&bg_color=0d1117" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Geltrax69&layout=compact&hide_border=true&title_color=00F5A0&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
-
-</div>
-
----
-
 <!-- ===================  PAC-MAN CONTRIBUTION GAME  =================== -->
 ### <img src="https://cdn.simpleicons.org/pacman/FFEE00" width="22" /> &nbsp;`./play --map=contributions`
 

@@ -1,61 +1,47 @@
-<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular','Consolas','Liberation Mono',monospace">
+<svg width="1000" height="230" viewBox="0 0 1000 230" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular','Consolas','Liberation Mono',monospace">
   <defs>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#00F5A0"/>
-      <stop offset="55%" stop-color="#00D9F5"/>
+      <stop offset="60%" stop-color="#00D9F5"/>
       <stop offset="100%" stop-color="#9D7BFF"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#05080d"/>
+      <stop offset="100%" stop-color="#080b10"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#00F5A0" stroke-width="0.6" stroke-opacity="0.10"/>
-    </pattern>
   </defs>
 
-  <rect width="1000" height="280" rx="14" fill="url(#fade)"/>
-  <rect width="1000" height="280" rx="14" fill="url(#grid)"/>
-  <rect x="1" y="1" width="998" height="278" rx="13" fill="none" stroke="url(#neon)" stroke-width="1.4" stroke-opacity="0.55"/>
+  <rect width="1000" height="230" rx="16" fill="url(#fade)"/>
+  <rect x="1" y="1" width="998" height="228" rx="15" fill="none" stroke="url(#neon)" stroke-width="1.2" stroke-opacity="0.45"/>
 
-  <rect x="0" width="1000" height="40" fill="#00F5A0" opacity="0.05">
-    <animate attributeName="y" values="-40;280" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <g stroke="#00D9F5" stroke-width="2" opacity="0.8">
-    <path d="M22 22h26M22 22v26"/><path d="M978 22h-26M978 22v26"/>
-    <path d="M22 258h26M22 258v-26"/><path d="M978 258h-26M978 258v-26"/>
+  <!-- minimal corner accents -->
+  <g stroke="#00D9F5" stroke-width="2" opacity="0.7">
+    <path d="M26 26h24M26 26v24"/><path d="M974 26h-24M974 26v24"/>
+    <path d="M26 204h24M26 204v-24"/><path d="M974 204h-24M974 204v-24"/>
   </g>
 
-  <text x="60" y="74" fill="#00D9F5" font-size="15" letter-spacing="10" font-weight="700">
-    ▍ SUBJECT A-69  //  LIVE
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+  <!-- kicker (centered) -->
+  <text x="500" y="68" text-anchor="middle" fill="#00D9F5" font-size="14" letter-spacing="9" font-weight="700">
+    F U L L - S T A C K&#160;&#160;E N G I N E E R
   </text>
 
-  <!-- TITLE: Orbitron Black, outlined to vector paths -->
-  <g transform="translate(58,168) scale(1.18)" fill="url(#neon)" filter="url(#glow)">
+  <!-- TITLE: Orbitron Black, centered -->
+  <g transform="translate(143,150) scale(1.0)" fill="url(#neon)" filter="url(#glow)">
     <path d="M5.7,-0.0L5.7,-72.1L21.2,-72.1L21.2,-15.6L77.7,-15.6L77.7,-0.0L5.7,-0.0ZM83.7,-0.0L83.7,-57.2Q83.7,-61.3 85.7,-64.6Q87.7,-68.0 91.1,-70.0Q94.5,-72.0 98.5,-72.0L140.8,-72.0Q144.9,-72.0 148.2,-70.0Q151.6,-68.0 153.7,-64.6Q155.7,-61.3 155.7,-57.2L155.7,-0.0L140.0,-0.0L140.0,-23.2L99.2,-23.2L99.2,-0.0L83.7,-0.0L83.7,-0.0ZM99.2,-38.8L140.0,-38.8L140.0,-56.4Q140.0,-56.4 140.0,-56.4Q140.0,-56.4 140.0,-56.4L99.2,-56.4Q99.2,-56.4 99.2,-56.4Q99.2,-56.4 99.2,-56.4L99.2,-38.8L99.2,-38.8ZM167.2,-0.0L167.2,-72.1L182.7,-72.1L182.7,-15.6L239.2,-15.6L239.2,-0.0L167.2,-0.0ZM242.5,-0.0L242.5,-72.0L257.8,-72.0L257.8,-0.0L242.5,-0.0ZM293.0,-0.0L293.0,-0.0L293.0,-56.4L264.8,-56.4L264.8,-72.0L336.8,-72.0L336.8,-56.4L308.6,-56.4L308.6,-0.0L293.0,-0.0ZM391.1,-0.0Q387.1,-0.0 383.7,-2.0Q380.3,-4.0 378.3,-7.4Q376.3,-10.8 376.3,-14.8L376.3,-21.5L391.8,-21.5L391.8,-15.6Q391.8,-15.6 391.8,-15.6Q391.8,-15.6 391.8,-15.6L432.6,-15.6Q432.6,-15.6 432.6,-15.6Q432.6,-15.6 432.6,-15.6L432.6,-28.2Q432.6,-28.2 432.6,-28.2Q432.6,-28.2 432.6,-28.2L391.1,-28.2Q387.1,-28.2 383.7,-30.2Q380.3,-32.2 378.3,-35.5Q376.3,-38.9 376.3,-43.0L376.3,-57.2Q376.3,-61.3 378.3,-64.6Q380.3,-68.0 383.7,-70.0Q387.1,-72.0 391.1,-72.0L433.5,-72.0Q437.5,-72.0 440.9,-70.0Q444.2,-68.0 446.3,-64.6Q448.3,-61.3 448.3,-57.2L448.3,-50.5L432.6,-50.5L432.6,-56.4Q432.6,-56.4 432.6,-56.4Q432.6,-56.4 432.6,-56.4L391.8,-56.4Q391.8,-56.4 391.8,-56.4Q391.8,-56.4 391.8,-56.4L391.8,-43.8Q391.8,-43.8 391.8,-43.8Q391.8,-43.8 391.8,-43.8L433.5,-43.8Q437.5,-43.8 440.9,-41.8Q444.2,-39.8 446.3,-36.4Q448.3,-33.1 448.3,-29.0L448.3,-14.8Q448.3,-10.8 446.3,-7.4Q444.2,-4.0 440.9,-2.0Q437.5,-0.0 433.5,-0.0L391.1,-0.0ZM456.8,-0.0L456.8,-72.0L472.1,-72.0L472.1,-0.0L456.8,-0.0ZM480.7,-0.0L480.7,-72.0L496.7,-72.0L537.0,-24.0L537.0,-72.0L552.7,-72.0L552.7,-0.0L536.7,-0.0L496.2,-48.2L496.2,-0.0L480.7,-0.0ZM578.7,-0.0Q574.7,-0.0 571.3,-2.0Q567.9,-4.0 565.9,-7.4Q563.9,-10.8 563.9,-14.8L563.9,-57.2Q563.9,-61.3 565.9,-64.6Q567.9,-68.0 571.3,-70.0Q574.7,-72.0 578.7,-72.0L621.0,-72.0Q625.1,-72.0 628.5,-70.0Q631.8,-68.0 633.9,-64.6Q635.9,-61.3 635.9,-57.2L635.9,-50.4L620.2,-50.4L620.2,-56.4Q620.2,-56.4 620.2,-56.4Q620.2,-56.4 620.2,-56.4L579.4,-56.4Q579.4,-56.4 579.4,-56.4Q579.4,-56.4 579.4,-56.4L579.4,-15.6Q579.4,-15.6 579.4,-15.6Q579.4,-15.6 579.4,-15.6L620.2,-15.6Q620.2,-15.6 620.2,-15.6Q620.2,-15.6 620.2,-15.6L620.2,-26.4L604.6,-26.4L604.6,-42.0L635.9,-42.0L635.9,-14.8Q635.9,-10.8 633.9,-7.4Q631.8,-4.0 628.5,-2.0Q625.1,-0.0 621.0,-0.0L578.7,-0.0ZM647.0,-0.0L647.0,-72.0L662.5,-72.0L662.5,-43.8L705.0,-43.8L705.0,-72.0L720.5,-72.0L720.5,-0.0L705.0,-0.0L705.0,-28.2L662.5,-28.2L662.5,-0.0L647.0,-0.0Z"/>
   </g>
 
-  <rect x="60" y="186" height="4" rx="2" fill="url(#neon)">
-    <animate attributeName="width" values="0;620;620" dur="2.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+  <!-- underline sweep -->
+  <rect x="350" y="166" height="3" rx="2" fill="url(#neon)">
+    <animate attributeName="width" values="0;300;300" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0.3;1" dur="2.6s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="62" y="232" fill="#9aa6b2" font-size="20" letter-spacing="5" font-weight="700">
-    FULL-STACK ENGINEER<tspan fill="#00F5A0"> · </tspan>REAL-TIME SYSTEMS<tspan fill="#00F5A0"> · </tspan>GO<tspan fill="#00D9F5">+</tspan>TS
+  <!-- subtitle (centered, single clean line) -->
+  <text x="500" y="200" text-anchor="middle" fill="#8b97a3" font-size="16" letter-spacing="4" font-weight="600">
+    REAL-TIME SYSTEMS<tspan fill="#00F5A0"> &#183; </tspan>GO + TYPESCRIPT<tspan fill="#00F5A0"> &#183; </tspan>SHIPPED TO 200+ USERS
   </text>
-  <rect x="690" y="216" width="13" height="22" fill="#00F5A0">
-    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
-  </rect>
-
-  <g font-size="13" fill="#5b6772" letter-spacing="2" text-anchor="end">
-    <text x="940" y="118">HP █████</text>
-    <text x="940" y="140" fill="#00D9F5">LVL  CS UNDERGRAD</text>
-    <text x="940" y="162">XP  200+ USERS SHIPPED</text>
-  </g>
 </svg>
