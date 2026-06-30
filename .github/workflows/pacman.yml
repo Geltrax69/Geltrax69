@@ -1,4 +1,4 @@
-name: generate game graphs
+name: generate arcade graphs
 on:
   schedule: [{ cron: "0 */12 * * *" }]
   workflow_dispatch:
@@ -8,20 +8,15 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 20
     steps:
-      # Pac-Man eating the contribution graph
-      - uses: abozanona/pacman-contribution-graph@master
+      - name: generate arcade contribution SVGs
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: Geltrax69
-          outputs: dist/pacman-contribution-graph.svg
-      # Snake too (fallback / extra)
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: Geltrax69
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=00F5A0
-      - uses: crazy-max/ghaction-github-pages@v4
+          github_user_name: ${{ github.repository_owner }}
+          games: 'pacman,breakout'
+      - name: push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

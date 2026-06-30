@@ -153,7 +153,16 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Geltrax69&theme=high-contrast&hide_border=true&bg_color=0d1117&color=00F5A0&line=00D9F5&point=ffffff&area=true&area_color=00F5A0" width="100%" />
 
 <!-- Pac-Man eating my contribution graph 🟡 -->
-<img src="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/pacman-contribution-graph.svg" width="100%" alt="Pac-Man contribution graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/pacman-contribution-graph-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/pacman-contribution-graph.svg" width="100%" alt="Pac-Man contribution graph" />
+</picture>
+
+<!-- Breakout, second game 🧱 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/breakout-contribution-graph-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/breakout-contribution-graph.svg" width="100%" alt="Breakout contribution graph" />
+</picture>
 
 </div>
 
