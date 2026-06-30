@@ -1,9 +1,14 @@
-<!-- ===================  ANIMATED HERO BANNER  =================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:00D9F5,100:00F5A0&height=240&section=header&text=LALIT%20SINGH&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=%2F%2F%20FULL-STACK%20ENGINEER%20%20%2F%2F%20%20REAL-TIME%20SYSTEMS%20%20%2F%2F%20%20GO%20%2B%20TS&descAlignY=62&descSize=16&descColor=e6edf3&stroke=00F5A0&strokeWidth=0" />
+<!-- ===================  ANIMATED HERO BANNER (custom SVG)  =================== -->
+<a href="https://github.com/Geltrax69">
+  <img width="100%" src="./assets/hero.svg" alt="Lalit Singh — Full-Stack Engineer" />
+</a>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=800&color=00F5A0&center=true&vCenter=true&width=900&height=45&lines=%24+whoami+--%3E+i+ship+things+that+update+in+real+time;%24+stack++--%3E+Golang+%E2%9A%A1+WebSockets+%E2%9A%A1+React+%E2%9A%A1+Next.js;%24+status+--%3E+intern-tested+on+200%2B+real+humans;%24+motto++--%3E+code+is+never+finished.+it+just+gets+deployed.)](https://github.com/Geltrax69)
+<!-- retro arcade font line -->
+[![Press Start](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&pause=1000&color=00F5A0&center=true&vCenter=true&width=900&height=60&lines=PRESS+START+TO+CONTINUE...;PLAYER+1%3A+LALIT+SINGH;HIGH+SCORE%3A+200%2B+USERS+SHIPPED)](https://github.com/Geltrax69)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=800&color=00D9F5&center=true&vCenter=true&width=900&height=45&lines=%24+whoami+--%3E+i+ship+things+that+update+in+real+time;%24+stack++--%3E+Golang+%E2%9A%A1+WebSockets+%E2%9A%A1+React+%E2%9A%A1+Next.js;%24+status+--%3E+intern-tested+on+200%2B+real+humans;%24+motto++--%3E+code+is+never+finished.+it+just+gets+deployed.)](https://github.com/Geltrax69)
 
 <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5A0?style=flat-square&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/LOCATION-PUNJAB,_IN-00D9F5?style=flat-square&labelColor=0d1117" />
@@ -140,17 +145,15 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 
 ---
 
-<!-- ===================  ANIMATED CONTRIB + SNAKE  =================== -->
-### <img src="https://cdn.simpleicons.org/github/ffffff" width="22" /> &nbsp;`./contribution_graph --animate`
+<!-- ===================  PAC-MAN CONTRIBUTION GAME  =================== -->
+### <img src="https://cdn.simpleicons.org/pacman/FFEE00" width="22" /> &nbsp;`./play --map=contributions`
 
 <div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Geltrax69&theme=high-contrast&hide_border=true&bg_color=0d1117&color=00F5A0&line=00D9F5&point=ffffff&area=true&area_color=00F5A0" width="100%" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
+<!-- Pac-Man eating my contribution graph 🟡 -->
+<img src="https://raw.githubusercontent.com/Geltrax69/Geltrax69/output/pacman-contribution-graph.svg" width="100%" alt="Pac-Man contribution graph" />
 
 </div>
 
