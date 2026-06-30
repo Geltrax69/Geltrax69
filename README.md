@@ -1,13 +1,13 @@
-<!-- ===================  NEON DOSSIER HEADER  =================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:00F5A0,100:00D9F5&height=230&section=header&text=LALIT%20SINGH&fontSize=70&fontColor=0d1117&animation=scaleIn&fontAlignY=42&desc=//%20FULL-STACK%20ENGINEER%20//%20REAL-TIME%20SYSTEMS%20//&descAlignY=66&descSize=16&descColor=0d1117" />
+<!-- ===================  ANIMATED HERO BANNER  =================== -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:00D9F5,100:00F5A0&height=240&section=header&text=LALIT%20SINGH&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=%2F%2F%20FULL-STACK%20ENGINEER%20%20%2F%2F%20%20REAL-TIME%20SYSTEMS%20%20%2F%2F%20%20GO%20%2B%20TS&descAlignY=62&descSize=16&descColor=e6edf3&stroke=00F5A0&strokeWidth=0" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=800&color=00F5A0&center=true&vCenter=true&width=900&height=45&lines=%24+whoami+--%3E+i+ship+things+that+update+in+real+time;%24+stack+--%3E+Golang+%E2%9A%A1+WebSockets+%E2%9A%A1+React+%E2%9A%A1+Next.js;%24+status+--%3E+intern-tested+on+200%2B+real+humans;%24+code+is+never+finished.+it+just+gets+deployed.)](https://github.com/Geltrax69)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=800&color=00F5A0&center=true&vCenter=true&width=900&height=45&lines=%24+whoami+--%3E+i+ship+things+that+update+in+real+time;%24+stack++--%3E+Golang+%E2%9A%A1+WebSockets+%E2%9A%A1+React+%E2%9A%A1+Next.js;%24+status+--%3E+intern-tested+on+200%2B+real+humans;%24+motto++--%3E+code+is+never+finished.+it+just+gets+deployed.)](https://github.com/Geltrax69)
 
 <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5A0?style=flat-square&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/LOCATION-PUNJAB,_IN-00D9F5?style=flat-square&labelColor=0d1117" />
-<img src="https://komarev.com/ghpvc/?username=Geltrax69&style=flat-square&color=00F5A0&label=VISITORS" />
+<img src="https://komarev.com/ghpvc/?username=Geltrax69&style=flat-square&color=00F5A0&label=VISITORS&labelColor=0d1117" />
 <img src="https://img.shields.io/github/followers/Geltrax69?style=flat-square&color=00D9F5&labelColor=0d1117&label=FOLLOWERS" />
 
 </div>
@@ -29,7 +29,7 @@
 ║ ORIGIN    LPU, Punjab IN  ║
 ║ FUNCTION  Build & Ship    ║
 ║ STATE     Caffeinated     ║
-║ THREAT    ⭐ ⭐ ⭐ ⭐ ⭐     ║
+║ THREAT    ★ ★ ★ ★ ★       ║
 ╚══════════════════════════╝
 ```
 
@@ -38,7 +38,7 @@
 </td>
 <td width="62%" valign="top">
 
-### `> ./know_about_me.sh`
+### <img src="https://cdn.simpleicons.org/gnubash/00F5A0" width="22" /> &nbsp;`./know_about_me.sh`
 
 I'm a **CS undergrad** who got tired of static pages and started building things that
 **move in real time** — live scoreboards, instant notifications, sockets that never sleep.
@@ -64,28 +64,28 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 ---
 
 <!-- ===================  ARSENAL  =================== -->
-### `> ./arsenal --load`
+### <img src="https://cdn.simpleicons.org/dungeonsanddragons/00D9F5" width="22" /> &nbsp;`./arsenal --load`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,typescript,python,java,cpp&theme=dark" />
+<picture><img src="https://skillicons.dev/icons?i=go,typescript,python,java,cpp&theme=dark&perline=5" /></picture>
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,django,flutter,tailwind,vite&theme=dark" />
+<picture><img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,django,flutter,tailwind,vite&theme=dark&perline=8" /></picture>
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,aws,firebase,docker,git,figma,postman&theme=dark" />
+<picture><img src="https://skillicons.dev/icons?i=postgres,mongodb,aws,firebase,docker,git,figma,postman&theme=dark&perline=8" /></picture>
 
 </div>
 
 ---
 
 <!-- ===================  TOP MISSIONS  =================== -->
-### `> ./top_missions --sort=impact`
+### <img src="https://cdn.simpleicons.org/rocket/00F5A0" width="22" /> &nbsp;`./top_missions --sort=impact`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🏆 ScoreCast — Real-Time Scoreboard
+#### <img src="https://cdn.simpleicons.org/go/00ADD8" width="18" /> ScoreCast — Real-Time Scoreboard
 > One Go WebSocket hub. Scores, timers & events sync **instantly** across scorer phones, admin panels and broadcast screens. QR / 4-digit pairing with JWT device tokens. Event-driven sets, undo/redo, completion.
 
 `Golang` `Gin` `WebSocket` `PostgreSQL` `React` `TS` `Docker`
@@ -93,7 +93,7 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 </td>
 <td width="50%" valign="top">
 
-#### 🏫 Simpedu — School Platform
+#### <img src="https://cdn.simpleicons.org/nextdotjs/ffffff" width="18" /> Simpedu — School Platform
 > Multi-tenant system **live in 3 schools / 100–200 students**. REST APIs, JWT + role-based access, Firebase push for homework / fees / announcements. Web **+** mobile.
 
 `Next.js` `Node` `Express` `MongoDB` `FCM`
@@ -103,7 +103,7 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 <tr>
 <td width="50%" valign="top">
 
-#### 🍽️ RestaurantOS — QR Ordering SaaS
+#### <img src="https://cdn.simpleicons.org/react/61DAFB" width="18" /> RestaurantOS — QR Ordering SaaS
 > Instagram-styled, multi-tenant ordering. Admins mint owner accounts, owners publish full menus, customers order live at `/r/:slug`.
 
 `React` `Multi-tenant` `Admin+Owner+Customer`
@@ -111,7 +111,7 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 </td>
 <td width="50%" valign="top">
 
-#### 📈 Stock Predictor — Stacked LSTM
+#### <img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="18" /> Stock Predictor — Stacked LSTM
 > Predicts next-day price direction from 5yrs of OHLCV technicals across AAPL · MSFT · GOOGL · AMZN · NVDA.
 
 `Python` `TensorFlow` `LSTM`
@@ -129,21 +129,19 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 ---
 
 <!-- ===================  TELEMETRY  =================== -->
-### `> ./telemetry --live`
+### <img src="https://cdn.simpleicons.org/grafana/00F5A0" width="22" /> &nbsp;`./telemetry --live`
 
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Geltrax69&show_icons=true&count_private=true&hide_border=true&title_color=00F5A0&icon_color=00D9F5&text_color=c9d1d9&bg_color=0d1117" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Geltrax69&layout=compact&hide_border=true&title_color=00F5A0&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Geltrax69&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" width="100%" />
-
 </div>
 
 ---
 
 <!-- ===================  ANIMATED CONTRIB + SNAKE  =================== -->
-### `> ./contribution_graph --animate`
+### <img src="https://cdn.simpleicons.org/github/ffffff" width="22" /> &nbsp;`./contribution_graph --animate`
 
 <div align="center">
 
@@ -161,7 +159,7 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 <!-- ===================  CONNECT  =================== -->
 <div align="center">
 
-### `> ./connect`
+### <img src="https://cdn.simpleicons.org/maildotru/00D9F5" width="22" /> &nbsp;`./connect`
 
 <a href="https://github.com/Geltrax69"><img src="https://img.shields.io/badge/GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=00F5A0" /></a>
 <a href="mailto:lalit.builds@gmail.com"><img src="https://img.shields.io/badge/GMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=00F5A0" /></a>
@@ -172,12 +170,6 @@ philosophy:  own it end-to-end — design, build, deploy, monitor, repeat
 
 > *"Code is never finished. It only gets deployed."*
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:00D9F5,100:00F5A0&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,60:00D9F5,100:0d1117&height=120&section=footer" />
 
 </div>
-
-<!--
-  ⚙️ SNAKE: needs the GitHub Action in .github/workflows/snake.yml to run once
-  (Actions tab → "generate snake animation" → Run workflow). Until it builds the
-  `output` branch the snake images 404 — expected, not broken.
--->
