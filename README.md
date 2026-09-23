@@ -1,7 +1,7 @@
 <!-- ===================  ANIMATED HERO BANNER (custom SVG)  =================== -->
-<a href="https://github.com/Geltrax69">
+<!-- <a href="https://github.com/Geltrax69">
   <img width="100%" src="./assets/hero.svg" alt="Harsh — Full-Stack Engineer" />
-</a>
+</a> -->
 
 <div align="center">
 
