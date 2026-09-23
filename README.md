@@ -1,6 +1,6 @@
 <!-- ===================  ANIMATED HERO BANNER (custom SVG)  =================== -->
 <a href="https://github.com/Geltrax69">
-  <img width="100%" src="./assets/hero.svg" alt="Lalit Singh — Full-Stack Engineer" />
+  <img width="100%" src="./assets/hero.svg" alt="Harsh — Full-Stack Engineer" />
 </a>
 
 <div align="center">
@@ -28,7 +28,7 @@
 ╔══════════════════════════╗
 ║   SUBJECT FILE :: A-69    ║
 ╠══════════════════════════╣
-║ NAME      Lalit Singh     ║
+║ NAME      Harsh.         ║
 ║ ALIAS     Geltrax69       ║
 ║ CLASS     Full-Stack Eng. ║
 ║ ORIGIN    LPU, Punjab IN  ║
