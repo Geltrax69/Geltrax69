@@ -6,7 +6,7 @@
 
 > ## Status: 🟢 Active builder
 >
-> **Harsh Khajuria** — I build and ship real projects, end to end.
+> **Lalit Singh** — I build and ship real projects, end to end.
 
 ---
 
